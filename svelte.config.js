@@ -26,9 +26,9 @@ export default {
 			precompress: false,
 			strict: true
 		}),
-		paths: {
-			base: '/kurosakirito.github.io'
-		}
+//		paths: {
+//			base: '/kurosakirito.github.io'
+//		}
 	}
 };
 
