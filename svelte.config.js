@@ -10,26 +10,26 @@ const config = {
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		adapter: adapter(),
 		paths: {
-//			base: process.env.NODE_ENV === 'production' ? '/kurosakirito.github.io' : ''
+			base: process.env.NODE_ENV === 'production' ? '/paraflip' : ''
 //			base: ''
 		}
 
 	}
 };
 
-export default {
-	kit: {
-		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
-			fallback: undefined,
-			precompress: false,
-			strict: true
-		}),
-//		paths: {
-//			base: '/kurosakirito.github.io'
-//		}
-	}
-};
+// export default {
+// 	kit: {
+// 		adapter: adapter({
+// 			pages: 'build',
+// 			assets: 'build',
+// 			fallback: undefined,
+// 			precompress: false,
+// 			strict: true
+// 		}),
+// //		paths: {
+// //			base: '/kurosakirito.github.io'
+// //		}
+// 	}
+// };
 
-//export default config;
+export default config;
